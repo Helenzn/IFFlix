@@ -1,6 +1,6 @@
 # 🎬 Sistema de Gerenciamento de Títulos IFFLIX
 
-**Bem-vindo(a) ao meu repositório! Ele contém um projeto de gerenciamento de filmes!**
+**Bem-vindo(a) ao meu repositório! Ele contém um projeto de gerenciamento de filmes!** [link](https://if-flix.vercel.app/)
 
 # Funcionalidades
 - **Cadastrar título**  
@@ -37,3 +37,4 @@
 
 ## Sobre mim
 - Olá, me chamo Helen Zanco Neis, estudo e amo a área da tecnologia!
+
