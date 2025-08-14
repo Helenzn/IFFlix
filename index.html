@@ -1,36 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IFFLIX</title>
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
+
 <body>
-    <div class="cointainer">
+    <div class="container">
         <header>
-             <h2>Cadastro de filmes - Criação de Páginas Web</h2>
-        <p>Bem- Vindo! Aqui você pode cadstrar títulos de filmes, ver a lista completa de títulos, marcar/desmarcar/remover títulos, 
-        classificar assistidos, não assistidos, categorias e ordem alfabética, verificar porcentagem assistida</p>
-        </header> 
+            <h1>🎬 IFFLIX</h1>
+            <p>Cadastre e gerencie seus filmes favoritos!</p>
+        </header>
+
         <main>
-            <img class="fundo" src="../img/banerlargo.png">
-        </main> 
+            <img class="fundo" src="img/baner.png" alt="Banner IFFLIX">
+        </main>
+
         <aside>
-             <div class="tab-buttons">
-            <button class="tab-btn" content-id="cadastroTitulo">Cadastrar título</button>
-            <button class="tab-btn" content-id="listaTitulos">Lista de títulos</button>
-            <button class="tab-btn" content-id="titulosAssistidos">Títulos assistidos</button>
-            <button class="tab-btn" content-id="titulosNassistidos">Títulos não assistidos</button>
-            <button class="tab-btn" content-id="categorias">Categorias</button>
-            <button class="tab-btn" content-id="ordem">Ordem alfabética</button>
-            <button class="tab-btn" content-id="porcentagem">Porcentagem</button>
-        </div>
-        </aside> 
+            <div class="tab-buttons">
+                <button class="tab-btn" content-id="cadTit">Cadastrar título</button>
+                <button class="tab-btn" content-id="lisTit">Lista de títulos</button>
+                <button class="tab-btn" content-id="assist">Assistidos</button>
+                <button class="tab-btn" content-id="nAssist">Não assistidos</button>
+                <button class="tab-btn" content-id="cat">Categorias</button>
+                <button class="tab-btn" content-id="ordAlf">Ordem alfabética</button>
+                <button class="tab-btn" content-id="porcent">Porcentagem</button>
+            </div>
+
+            <div class="tab-content">
+
+                <div class="content show" id="cadTit">
+                    <div class="container-box">
+                        <div class="estilo1">
+                            <input type="text" id="txtNomeTitulo" placeholder="Nome do Título">
+                            <select id="tipoTit">
+                                <option value="filme">Filme</option>
+                                <option value="série">Série</option>
+                            </select>
+                            <button id="btnCadTit">Cadastrar Título</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="content" id="lisTit">
+                    <div class="container-box">
+                        <h3>Lista de Títulos</h3>
+                        <ul id="listaTit"></ul>
+                        <p>Total: <span id="contTit">0</span></p>
+                        <div class="estilo1">
+                            <h3>Título assistido</h3>
+                            <select id="selectTit"></select>
+                            <button id="btnAssistido">Confirmar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content" id="assist">
+                    <div class="container-box">
+                        <h3>Lista de Títulos Assistidos</h3>
+                        <ul id="listaTitAssis"></ul>
+                        <p>Total: <span id="contTitAssis">0</span></p>
+                        <div class="estilo1">
+                            <select id="selectTitA"></select>
+                            <button id="btnVoltar">Voltar</button>
+                            <br><br>
+                            <button id="btnRemover">Remover</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="content" id="nAssist">
+                    <div class="container-box">
+                        <h3>Lista de Títulos Não Assistidos</h3>
+                        <ul id="listaTitNAssis"></ul>
+                        <p>Total: <span id="contTitNAssis">0</span></p>
+                    </div>
+                </div>
+
+                <div class="content" id="cat">
+                    <div class="container-box">
+                        <h3>Lista Filmes</h3>
+                        <ul id="listaFilmes"></ul>
+                        <p>Total: <span id="contFilmes">0</span></p>
+                    </div>
+                    <div class="container-box">
+                        <h3>Lista Séries</h3>
+                        <ul id="listaSeries"></ul>
+                        <p>Total: <span id="contSeries">0</span></p>
+                    </div>
+                </div>
+
+                <div class="content" id="ordAlf">
+                    <div class="container-box">
+                        <h3>Lista Títulos em Ordem Alfabética:</h3>
+                        <ul id="listaOrdenada"></ul>
+                    </div>
+                </div>
+
+                <div class="content" id="porcent">
+                    <div class="container-box">
+                        <h3>Porcentagem</h3>
+                        <p>Assistida: <span id="porcA">0</span>%</p>
+                        <p>Não Assistida: <span id="porcNA">100</span>%</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
         <footer>
-            <p>Instituto Federal Sul-rio-grandense - Campus Passo Fundo | Disciplina: Criação de Páginas Web</p>
-        </footer> 
+            <p>📽️ Instituto Federal Sul-rio-grandense - Câmpus Passo Fundo | Criação de Páginas Web</p>
+            <p>Aluna:Helen Zanco Neis</p>
+        </footer>
     </div>
-    
+
+    <script src="JS/script.js"></script>
 </body>
+
 </html>
