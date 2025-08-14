@@ -16,16 +16,16 @@
   Filtre e veja apenas os títulos que ainda não foram assistidos.
 
 - **Categorias**  
-  Organize ou filtre os títulos por gênero/categoria.
+  filtre os títulos por categoria série / filme.
 
 - **Ordem alfabética**  
-  Ordene a lista de títulos de forma crescente (A–Z) ou decrescente (Z–A).
+  Ordene a lista de títulos de forma crescente (A–Z).
 
 - **Porcentagem**  
   Veja a porcentagem de títulos assistidos em relação ao total cadastrado.
 
 - **Voltar e remover**  
-  - **Voltar**: retorna para a tela anterior ou visão geral.  
+  - **Voltar**: retorna título para a lista não assistidos.  
   - **Remover**: exclui títulos do sistema.
 
 # Tecnologias 
@@ -37,4 +37,5 @@
 
 ## Sobre mim
 - Olá, me chamo Helen Zanco Neis, estudo e amo a área da tecnologia!
+
 
