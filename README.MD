@@ -4,7 +4,7 @@
 
 # Funcionalidades
 - **Cadastrar título**  
-  Adicione novos filmes ou séries com nome, categoria e outras informações relevantes.
+  Adicione novos filmes ou séries com nome e categoria.
 
 - **Lista de títulos**  
   Visualize todos os títulos cadastrados no sistema.
@@ -22,7 +22,10 @@
   Ordene a lista de títulos de forma crescente (A–Z).
 
 - **Porcentagem**  
-  Veja a porcentagem de títulos assistidos em relação ao total cadastrado.
+  Veja a porcentagem de títulos assistidos e não assistidos.
+
+- **Quantidade**  
+  Veja a quantidade de títulos em tempo real.
 
 - **Voltar e remover**  
   - **Voltar**: retorna título para a lista não assistidos.  
@@ -37,5 +40,6 @@
 
 ## Sobre mim
 - Olá, me chamo Helen Zanco Neis, estudo e amo a área da tecnologia!
+
 
 
